@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Homepage from './pages/homepage/Homepage'
-import BookingPage from './pages/booking-page/BookingPage';
-import ConfirmedBooking from './pages/confirmed-booking/ConfirmedBooking.jsx';
+import Homepage from './components/Homepage/Homepage.jsx'
+import BookingPage from './components/BookingPage/BookingPage.jsx';
+import ConfirmedBooking from './components/ConfirmedBooking/ConfirmedBooking.jsx';
 
 const router = createBrowserRouter([
   {

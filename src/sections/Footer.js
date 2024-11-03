@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
-import logo from '../../img/Logo.svg'
+import logo from '../img/Logo.svg'
 import './Footer.css'
 
 const Footer = () => {
