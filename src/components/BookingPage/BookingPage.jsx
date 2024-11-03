@@ -204,7 +204,7 @@ const BookingPage = () => {
   const submitAPI = function(formData) {
     return true;
   };
-
+// Already DOne Validation in previous commit
   return (
     <section className="booking-page flex flex-col">
       <h1 className='text-4xl font-bold text-center mb-5'>Reserve a Table</h1>
